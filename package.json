@@ -1,0 +1,38 @@
+{
+  "name": "lgcontabilidad-mx",
+  "version": "1.0.0",
+  "description": "Sistema integral de contabilidad mexicana con cumplimiento SAT",
+  "main": "backend/src/index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm start",
+    "build": "npm run build:backend && npm run build:frontend",
+    "build:backend": "cd backend && npm run build",
+    "build:frontend": "cd frontend && npm run build",
+    "test": "concurrently \"npm run test:backend\" \"npm run test:frontend\"",
+    "test:backend": "cd backend && npm test",
+    "test:frontend": "cd frontend && npm test",
+    "lint": "concurrently \"npm run lint:backend\" \"npm run lint:frontend\"",
+    "lint:backend": "cd backend && eslint src/",
+    "lint:frontend": "cd frontend && eslint src/",
+    "db:migrate": "cd backend && npm run db:migrate",
+    "db:seed": "cd backend && npm run db:seed",
+    "start": "npm run build && npm run start:prod",
+    "start:prod": "cd backend && NODE_ENV=production node src/index.js"
+  },
+  "keywords": [
+    "contabilidad",
+    "mexico",
+    "fiscal",
+    "sat",
+    "cfdi",
+    "iva",
+    "isr"
+  ],
+  "author": "Luis García",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
+}
