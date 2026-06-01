@@ -1,0 +1,60 @@
+╔════════════════════════════════════════════════════════════════╗
+║     🚀 BIENVENIDO A LG CONTABILIDAD MX - COMIENZA AQUÍ          ║
+╚════════════════════════════════════════════════════════════════╝
+
+📋 PASOS PARA COMENZAR:
+
+1️⃣  LEE PRIMERO:
+    └─ Abre: docs/INICIO_RAPIDO.md
+    └─ Todo está explicado paso a paso
+
+2️⃣  OPCIÓN CON DOCKER (Más Fácil):
+    └─ Abre PowerShell/Terminal en esta carpeta
+    └─ Escribe: docker-compose up -d
+    └─ Espera 1 minuto
+    └─ Abre: http://localhost:3000
+
+3️⃣  OPCIÓN SIN DOCKER (Manual):
+    ├─ Terminal 1: cd backend && npm install && npm run dev
+    ├─ Terminal 2: cd frontend && npm install && npm start
+    └─ Se abre solo en: http://localhost:3000
+
+4️⃣  REGISTRATE:
+    ├─ Email: admin@empresa.com
+    ├─ Contraseña: Contraseña123
+    ├─ Nombre: Luis
+    ├─ RFC: GARL890101ABC
+    └─ ¡Listo!
+
+5️⃣  PRUEBA LAS FUNCIONES:
+    ├─ Crear asiento contable
+    ├─ Ver balanza de comprobación
+    ├─ Calcular impuestos
+    └─ Emitir factura
+
+═══════════════════════════════════════════════════════════════════
+
+📞 SOPORTE:
+
+❌ ¿No funciona Docker?
+   └─ Ve a docs/INICIO_RAPIDO.md → Troubleshooting
+
+❌ ¿No funciona npm install?
+   └─ npm cache clean --force
+   └─ npm install
+
+❌ ¿Puerto ya en uso?
+   └─ Cierra otras aplicaciones en puerto 3000/3001
+
+═══════════════════════════════════════════════════════════════════
+
+✨ DESPUÉS DE EMPEZAR:
+
+1. Leer: docs/NORMATIVAS.md
+2. Ver: docs/API.md
+3. Agregar más funcionalidades
+4. Integrar con SAT
+
+═══════════════════════════════════════════════════════════════════
+
+¡ADELANTE CON TU SISTEMA DE CONTABILIDAD MEXICANO! 🎉
